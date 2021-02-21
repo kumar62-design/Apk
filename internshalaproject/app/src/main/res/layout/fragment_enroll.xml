@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".EnrollFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:scrollbars="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+
+            android:id="@+id/imageView"
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:layout_marginTop="15dp"
+            android:src="@drawable/imglogo"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <EditText
+            android:id="@+id/editText"
+            android:layout_width="350dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="15dp"
+            android:hint="First Name "
+            android:paddingStart="15sp"
+            android:paddingEnd="15sp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+        <EditText
+            android:id="@+id/editText2"
+            android:layout_width="350dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="15dp"
+            android:hint="Last Name "
+            android:paddingStart="15sp"
+            android:paddingEnd="15sp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editText" />
+
+        <EditText
+            android:id="@+id/editText3"
+            android:layout_width="350dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="15dp"
+            android:hint="Date of Birth"
+            android:paddingStart="15sp"
+            android:paddingEnd="15sp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editText2" />
+
+        <EditText
+            android:id="@+id/editText4"
+            android:layout_width="350dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="15dp"
+            android:hint="Gender"
+            android:paddingStart="15sp"
+            android:paddingEnd="15sp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editText3" />
+
+        <EditText
+            android:id="@+id/editText5"
+            android:layout_width="350dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="15dp"
+            android:hint="Country"
+            android:paddingStart="15sp"
+            android:paddingEnd="15sp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editText4" />
+
+        <EditText
+            android:id="@+id/editText6"
+            android:layout_width="350dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="15dp"
+            android:hint="State"
+            android:paddingStart="15sp"
+            android:paddingEnd="15sp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editText5" />
+
+        <EditText
+            android:id="@+id/editText7"
+            android:layout_width="350dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="15dp"
+            android:hint="Home Town"
+            android:paddingStart="15sp"
+            android:paddingEnd="15sp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editText6" />
+
+        <EditText
+            android:id="@+id/editText8"
+            android:layout_width="350dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="15dp"
+            android:hint="Phone Number"
+            android:paddingStart="15sp"
+            android:paddingEnd="15sp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editText7" />
+
+        <EditText
+            android:id="@+id/editText9"
+            android:layout_width="350dp"
+            android:layout_height="55dp"
+            android:layout_marginTop="15dp"
+            android:hint="Telephone Number"
+            android:paddingStart="15sp"
+            android:paddingEnd="15sp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/black"
+            android:textSize="20sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editText8"/>
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="400dp"
+            android:layout_height="65dp"
+            android:layout_marginTop="400dp"
+            android:layout_marginBottom="70dp"
+            android:text="ADD USER"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/editText4"/>
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
